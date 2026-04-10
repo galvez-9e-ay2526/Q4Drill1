@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Drill 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Electricty Consumption Classifier</h1>
+        <p>Enter your electricity usage (kWh) to classify your consumption.</p>
+    <div class="d-flex p-4 mt-4">
+    <h2 class="me-3">kWh</h2>
+    <input type="number" id="kWhInput" class="form-control w-25 me-3" placeholder="Enter kWh">
+    <button class="btn btn-warning" onclick="classifyConsumption()">Consumption Classification</button></div>
+    <p id="errorMSG" class="text-danger mt-3"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
